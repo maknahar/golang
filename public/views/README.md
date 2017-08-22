@@ -1,0 +1,1 @@
+`public/views` directory contain all publicly accessible web pages. Router maps `public/views/` to root `/` of web application.
