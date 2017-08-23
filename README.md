@@ -17,6 +17,8 @@ I have added TODO where ever a change is required before by developer to persona
 # Usage
 1. [Fork](https://help.github.com/articles/fork-a-repo/) this repo
 2. [Rename](https://help.github.com/articles/renaming-a-repository/) repo name
+3. Replace `/maknahar/go-web-skeleton/` with `/<your-username>/<your-repo-name>/` in forked project.
+
 # Dependency Management
 Service uses [glide](https://github.com/Masterminds/glide) as dependency management tool.
 
