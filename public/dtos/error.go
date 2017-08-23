@@ -1,9 +1,7 @@
 package dtos
 
 type ErrorResponseDTO struct {
-	Status  int    `json:"status"`
+	Status  string `json:"status"`
+	Code    int    `json:"code"`
 	Message string `json:"message"`
-	Errors  struct {
-		ID int `json:"id"`
-	} `json:"errors"`
 }
