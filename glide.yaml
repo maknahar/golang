@@ -1,6 +1,8 @@
 package: github.com/maknahar/go-web-skeleton
 import:
 - package: github.com/go-chi/chi
-  version: ~3.1.5
+  version: ~3.2.0
   subpackages:
   - middleware
+- package: github.com/namsral/flag
+  version: ~1.7.4-pre

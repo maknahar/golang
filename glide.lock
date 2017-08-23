@@ -1,8 +1,10 @@
-hash: 7aa009db9f523440690f91626585c953dbf87815b94d2b62bf71b64b5d608b17
-updated: 2017-08-22T19:19:22.422438089+05:30
+hash: a1525f9a9ed22287854c009e8254dec5e611d5152008c9f1f053821824ee2fae
+updated: 2017-08-23T14:22:10.827597976+05:30
 imports:
 - name: github.com/go-chi/chi
-  version: 25354a53cca531cb2efd3f1d3c565d90ff04d802
+  version: ba73ba0623af32e4e5f09880177e73bd78d98852
   subpackages:
   - middleware
+- name: github.com/namsral/flag
+  version: 71ceffbeb0ba60fccc853971bb3ed4d7d90bfd04
 testImports: []
