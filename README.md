@@ -5,6 +5,7 @@ Using the best available open sources resources to build a Web Application.
 # Package Used
 1. [chi](https://github.com/go-chi/chi) : For Routing
 2. [flag](https://github.com/namsral/flag): For configurations (environment variables and command line arguments)
+3. [logrus](https://github.com/sirupsen/logrus): For Logging 
 
 # Dependency Management
 Service uses [glide](https://github.com/Masterminds/glide) as dependency management tool.

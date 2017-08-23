@@ -1,22 +1,24 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"net/http"
 	"strconv"
 
 	"github.com/maknahar/go-web-skeleton/internal/router"
 	"github.com/maknahar/go-web-skeleton/internal/utils/config"
+	"github.com/maknahar/go-web-skeleton/internal/utils/logger"
 )
 
 func main() {
-	fmt.Println("Configuring the app...")
+	l := logger.GetLogger()
+
+	l.Infoln("Configuring the app...")
 	err := config.Initialize()
 	if err != nil {
-		log.Fatal(err)
+		l.Fatal(err)
 	}
 
-	fmt.Println("Starting Web Server on port", config.Port)
+	l.Infoln("Starting Web Server on port", config.Port)
 	log.Fatal(http.ListenAndServe(":"+strconv.Itoa(config.Port), router.GetRoutes()))
 }

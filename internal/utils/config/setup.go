@@ -7,8 +7,8 @@ import (
 )
 
 var (
-	Port int
-
+	Port     int
+	LogLevel int
 	//Additional config vars declaration goes here
 	//TODO
 )
@@ -17,6 +17,7 @@ var (
 // all required parameters
 func Initialize() error {
 	flag.IntVar(&Port, "port", 0, "Port to run on")
+	flag.IntVar(&LogLevel, "log_level", 0, "Log level(1-5)")
 
 	//Set config value here. Set default value to zero value
 	// if parameter is required
