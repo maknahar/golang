@@ -19,6 +19,8 @@ I have added TODO whereever any change is required before by developer to person
 2. [Rename](https://help.github.com/articles/renaming-a-repository/) repo name
 3. Replace `/maknahar/go-web-skeleton/` with `/<your-username>/<your-repo-name>/` in forked project.
 
+OR [duplicate](https://help.github.com/articles/duplicating-a-repository) the repo instead of step 1 and 2.
+
 # Dependency Management
 Service uses [glide](https://github.com/Masterminds/glide) as dependency management tool.
 
