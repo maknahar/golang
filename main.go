@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/maknahar/go-web-skeleton/internal/router"
-	"github.com/maknahar/go-web-skeleton/internal/utils/config"
-	"github.com/maknahar/go-web-skeleton/internal/utils/logger"
+	"github.com/RealImage/que-ingester/internal/router"
+	"github.com/RealImage/que-ingester/internal/utils/config"
+	"github.com/RealImage/que-ingester/internal/utils/logger"
 )
 
 func main() {

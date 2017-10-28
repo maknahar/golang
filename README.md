@@ -10,7 +10,7 @@ Service to ingest searchable data into database.
 # Usage
 1. [Fork](https://help.github.com/articles/fork-a-repo/) this repo
 2. [Rename](https://help.github.com/articles/renaming-a-repository/) repo name
-3. Replace `/maknahar/go-web-skeleton/` with `/<your-username>/<your-repo-name>/` in forked project.
+3. Replace `/RealImage/que-ingester/` with `/<your-username>/<your-repo-name>/` in forked project.
 
 OR [duplicate](https://help.github.com/articles/duplicating-a-repository) the repo instead of step 1 and 2.
 

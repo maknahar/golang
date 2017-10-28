@@ -3,9 +3,10 @@ package stdlib_test
 import (
 	"bytes"
 	"database/sql"
+	"testing"
+
 	"github.com/jackc/pgx"
 	"github.com/jackc/pgx/stdlib"
-	"testing"
 )
 
 func openDB(t *testing.T) *sql.DB {

@@ -1,8 +1,9 @@
 package pgx_test
 
 import (
-	"github.com/jackc/pgx"
 	"testing"
+
+	"github.com/jackc/pgx"
 )
 
 func TestHstoreTranscode(t *testing.T) {

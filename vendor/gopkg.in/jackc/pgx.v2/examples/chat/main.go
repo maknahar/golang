@@ -3,9 +3,10 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"github.com/jackc/pgx"
 	"os"
 	"time"
+
+	"github.com/jackc/pgx"
 )
 
 var pool *pgx.ConnPool

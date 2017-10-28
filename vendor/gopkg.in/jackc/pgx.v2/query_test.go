@@ -3,10 +3,11 @@ package pgx_test
 import (
 	"bytes"
 	"database/sql"
-	"github.com/jackc/pgx"
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/jackc/pgx"
 
 	"github.com/shopspring/decimal"
 )

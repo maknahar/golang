@@ -1,11 +1,12 @@
 package main
 
 import (
-	"github.com/jackc/pgx"
-	log "gopkg.in/inconshreveable/log15.v2"
 	"io/ioutil"
 	"net/http"
 	"os"
+
+	"github.com/jackc/pgx"
+	log "gopkg.in/inconshreveable/log15.v2"
 )
 
 var pool *pgx.ConnPool

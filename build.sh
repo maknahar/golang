@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Setting env vars"
-#TODO
-source $GOPATH/src/github.com/maknagar/go-web-skelton/dev.env
+source $GOPATH/src/github.com/RealImage/que-ingester/dev.env
 
 echo "Doing some cleaning ..."
 go clean
@@ -40,6 +39,5 @@ go test -p=1 -v
 if [ $? == 0 ]; then
     echo "Done."
 	echo "## Starting service ##"
-	#TODO
-    ./go-web-skeleton -v
+    ./que-ingester
 fi

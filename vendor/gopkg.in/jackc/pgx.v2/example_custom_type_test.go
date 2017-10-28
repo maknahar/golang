@@ -3,9 +3,10 @@ package pgx_test
 import (
 	"errors"
 	"fmt"
-	"github.com/jackc/pgx"
 	"regexp"
 	"strconv"
+
+	"github.com/jackc/pgx"
 )
 
 var pointRegexp *regexp.Regexp = regexp.MustCompile(`^\((.*),(.*)\)$`)

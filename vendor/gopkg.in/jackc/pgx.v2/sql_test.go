@@ -1,9 +1,10 @@
 package pgx_test
 
 import (
-	"github.com/jackc/pgx"
 	"strconv"
 	"testing"
+
+	"github.com/jackc/pgx"
 )
 
 func TestQueryArgs(t *testing.T) {

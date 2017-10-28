@@ -1,9 +1,10 @@
 package pgx_test
 
 import (
-	"github.com/jackc/pgx"
 	"testing"
 	"time"
+
+	"github.com/jackc/pgx"
 )
 
 func TestTransactionSuccessfulCommit(t *testing.T) {

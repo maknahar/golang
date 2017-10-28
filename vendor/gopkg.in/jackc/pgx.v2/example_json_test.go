@@ -2,6 +2,7 @@ package pgx_test
 
 import (
 	"fmt"
+
 	"github.com/jackc/pgx"
 )
 

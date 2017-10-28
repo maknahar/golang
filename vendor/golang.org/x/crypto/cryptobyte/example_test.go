@@ -7,6 +7,7 @@ package cryptobyte_test
 import (
 	"encoding/asn1"
 	"fmt"
+
 	"golang.org/x/crypto/cryptobyte"
 )
 
