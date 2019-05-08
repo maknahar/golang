@@ -3,7 +3,7 @@ repos:
     rev: master
     hooks:
       - id: go-fmt
-      - id: go-vet
+#      - id: go-vet
       - id: validate-toml
       - id: golangci-lint
       - id: go-build

@@ -24,7 +24,10 @@ func LogAndWriteResponse(w http.ResponseWriter, r *http.Request, h func(l *log.E
 	w.Header().Set("Access-Control-Allow-Origin", "*")
 	w.Header().Set("Content-Type", "application/json; charset=utf-8")
 	w.WriteHeader(statusCode)
-	w.Write(response)
+	_, err := w.Write(response)
+	if err != nil {
+		l.WithError(err).Error("Could not encode response")
+	}
 	l.Printf("Status Code: %d, Response time: %v, Response: %s", statusCode, time.Since(start), string(response))
 
 }

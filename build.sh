@@ -37,7 +37,8 @@ echo "Done."
 echo "Running unit test ..."
 go test -p=1 -v
 if [ $? == 0 ]; then
-    echo "Done."
+  echo "Done."
 	echo "## Starting service ##"
-    ./que-ingester
+	# TODO change this to your own project
+  ./que-ingester
 fi
