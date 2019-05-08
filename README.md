@@ -14,6 +14,25 @@ Service to ingest searchable data into database.
 
 OR [duplicate](https://help.github.com/articles/duplicating-a-repository) the repo instead of step 1 and 2.
 
+
+##### Pre-commit Hook
+
+Pre-commit hooks for golang are used from https://github.com/dnephin/pre-commit-golang
+
+Install pre-commit from https://pre-commit.com/#install.
+For Mac User `brew install pre-commit`
+
+Run `pre-commit install --install-hooks`
+
+Install validate-toml from https://github.com/BurntSushi/toml/tree/master/cmd/tomlv
+
+Install golangci-lint from https://github.com/golangci/golangci-lint#install
+golangci-lint contains go-lint and go-critic and hence they are commented in yaml file.
+They might not be enabled by default. To enable them, run below command.
+`golangci-lint linters -E gocritic`
+
+Before committing any files, the hooks mentioned in yaml will be executed.
+
 # Dependency Management
 Service uses [glide](https://github.com/Masterminds/glide) as dependency management tool.
 
