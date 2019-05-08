@@ -4,8 +4,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/RealImage/que-ingester/internal/utils/config"
-	"github.com/RealImage/que-ingester/internal/utils/logger"
+	"github.com/maknahar/go-web-skeleton/internal/utils/config"
+	"github.com/maknahar/go-web-skeleton/internal/utils/logger"
 	"gopkg.in/jackc/pgx.v2"
 )
 

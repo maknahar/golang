@@ -7,9 +7,9 @@ import (
 
 	"strings"
 
-	"github.com/RealImage/que-ingester/internal/controller"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
+	"github.com/maknahar/go-web-skeleton/internal/controller"
 )
 
 func GetRoutes() *chi.Mux {

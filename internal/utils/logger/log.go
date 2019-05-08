@@ -6,7 +6,7 @@ import (
 
 	"os"
 
-	"github.com/RealImage/que-ingester/internal/utils/config"
+	"github.com/maknahar/go-web-skeleton/internal/utils/config"
 	log "github.com/sirupsen/logrus"
 )
 

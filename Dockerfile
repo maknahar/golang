@@ -3,12 +3,12 @@
 FROM golang:1.9.1
 
 # Copy the local package files to the container's workspace.
-ADD . /go/src/github.com/RealImage/que-ingester/
+ADD . /go/src/github.com/maknahar/go-web-skeleton/
 
 # Build the application inside the container.
 # (You may fetch or manage dependencies here,
 # either manually or with a tool like "glide".)
-RUN go install github.com/RealImage/que-ingester/
+RUN go install github.com/maknahar/go-web-skeleton/
 
 # Run the application by default when the container starts.
 ENTRYPOINT /go/bin/go-web-skelton

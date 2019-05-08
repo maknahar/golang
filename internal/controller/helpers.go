@@ -7,8 +7,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/RealImage/que-ingester/internal/utils/logger"
-	"github.com/RealImage/que-ingester/public/dtos"
+	"github.com/maknahar/go-web-skeleton/internal/utils/logger"
+	"github.com/maknahar/go-web-skeleton/public/dtos"
 )
 
 func LogAndWriteResponse(w http.ResponseWriter, r *http.Request, h func(l *log.Entry) ([]byte, int)) {

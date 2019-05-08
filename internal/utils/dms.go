@@ -6,13 +6,14 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/RealImage/jt-engine/config"
+	"github.com/maknahar/go-web-skeleton/internal/utils/config"
+	"github.com/maknahar/go-web-skeleton/internal/utils/logger"
 )
 
 //StartDMSPinger is a goroutine to keep pinging Dead Man Snitch.
 func StartDMSPinger() {
-	dmsURL := config.DMS_URL
-	l := GetLogger()
+	dmsURL := config.DMSURL
+	l := logger.GetLogger()
 	l.Println("DMS Url:", dmsURL)
 	if dmsURL != "" {
 		l.Println("Starting DMS Pinger")

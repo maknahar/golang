@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Setting env vars"
-source $GOPATH/src/github.com/RealImage/que-ingester/dev.env
+source $GOPATH/src/github.com/maknahar/go-web-skeleton/dev.env
 
 echo "Doing some cleaning ..."
 go clean

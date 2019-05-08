@@ -20,7 +20,8 @@ var (
 func Initialize() error {
 	flag.IntVar(&Port, "port", 0, "Port to run on")
 	flag.IntVar(&LogLevel, "log_level", 0, "Log level(1-5)")
-	flag.IntVar(&MaxDBConnections, "max_db_connections", 15, "")
+	flag.IntVar(&MaxDBConnections, "max_db_connections", 15,
+		"Max DB connections allowed to be used in pool")
 	flag.StringVar(&DMSURL, "dms_url", "", "DMS_URL")
 
 	//Set config value here. Set default value to zero value
