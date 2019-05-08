@@ -34,7 +34,7 @@ They might not be enabled by default. To enable them, run below command.
 Before committing any files, the hooks mentioned in yaml will be executed.
 
 # Dependency Management
-Service uses [glide](https://github.com/Masterminds/glide) as dependency management tool.
+Service uses Go Module.
 
 # Contribution
 If you know any open source package that you believe in must have in a Go Web Service, Please let us know.

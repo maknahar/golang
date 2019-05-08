@@ -13,5 +13,6 @@
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
 .idea/
+
+# TODO rename this to your executable(s)
 go-web-skeleton
-que-ingester
